@@ -1,4 +1,4 @@
-# NASA Project
+# NASA Mission Control Project
 
 `ZTM` Udemy Course - [Complete NodeJS Developer](https://www.udemy.com/course/complete-nodejs-developer-zero-to-mastery).
 
@@ -6,10 +6,10 @@ Final code of this course section on [GitHub](https://github.com/odziem/nasa-pro
 
 ## Prerequisite
 
-<!-- 
+<!-- -->
 - `Node.js` is installed ⚡
 - Prefered Code-Editor/IDE is installed (For example: `vscode`) ✍
-- Terminal is ready 😎 -->
+- Terminal is ready 😎 
 
 
 ## Description
@@ -55,9 +55,9 @@ npm audit fix
 ```
  -->
 
-
 ## Useful references
 
 <!-- 
 - []()
  -->
+- [Lucid App](https://www.lucidchart.com/pages/?)
