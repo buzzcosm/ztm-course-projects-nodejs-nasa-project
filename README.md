@@ -18,7 +18,7 @@ Final code of this course section on [GitHub](https://github.com/odziem/nasa-pro
 
 ## Process
 
-<!-- 
+
 
 Install npm packages ⬇
 
@@ -26,34 +26,26 @@ Install npm packages ⬇
 npm install
 ```
 
-Run node application 🏎️💨
-
-```shell
-npm start
-```
+Run application in develop mode 🏎️💨
 
 ```shell
 npm run watch
 ```
 
-Clean packages 🧹🪣
+Run application in production mode 🏎️💨
+
+```shell
+npm run deploy
+```
+
+Clean artifacts 🧹🪣
+
+> [!TIP]
+> Keep your things clean!
 
 ```shell
 npm run clean
 ```
-
-Check vulnerabilities 🤔
-
-```shell
-npm audit
-```
-
-Fix vulnerabilities if needed ✅
-
-```shell
-npm audit fix
-```
- -->
 
 ## Useful references
 
