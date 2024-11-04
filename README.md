@@ -63,3 +63,4 @@ npm audit fix
 - [Lucid App](https://www.lucidchart.com/pages/?)
 - [Arwes - Futuristic Sci-Fi UI Web Framework](https://arwes.dev/) ✨🚀
 - [Node.js - Streams Promises API](https://nodejs.org/api/stream.html#stream_streams_promises_api)
+- [Create React App - Deployment](https://create-react-app.dev/docs/deployment/)
