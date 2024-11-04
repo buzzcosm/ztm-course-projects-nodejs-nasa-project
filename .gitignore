@@ -1,5 +1,8 @@
+### project specific ###
 node_modules
 dist
+build
+server/public
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows
