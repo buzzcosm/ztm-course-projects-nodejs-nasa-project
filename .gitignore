@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 dist
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows
