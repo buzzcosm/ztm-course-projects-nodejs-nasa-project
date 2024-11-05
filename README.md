@@ -59,6 +59,11 @@ Remove all `node_modules` and `public` folder.
 npm run clean
 ```
 
+## Testing APIs
+
+- [JEST](https://jestjs.io/)
+  - [Getting Started](https://jestjs.io/docs/getting-started)
+
 ## Useful references
 
 <!-- 
