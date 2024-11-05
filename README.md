@@ -25,9 +25,9 @@ npm install
 ```
 
 Run application in develop mode 🏎️💨
-
+<!-- 
 > [!CAUTION]
-> Currently only optimized for deployment!
+> Currently only optimized for deployment! -->
 
 ```shell
 npm run watch
