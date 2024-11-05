@@ -58,3 +58,4 @@ npm run clean
 - [Node.js - Streams Promises API](https://nodejs.org/api/stream.html#stream_streams_promises_api)
 - [Create React App - Deployment](https://create-react-app.dev/docs/deployment/)
 - [GitHub - Markdown highlighting](https://github.com/orgs/community/discussions/16925)
+- [npm - Morgan Logging Package](https://www.npmjs.com/package/morgan)
