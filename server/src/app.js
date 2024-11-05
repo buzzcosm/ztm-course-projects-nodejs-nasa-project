@@ -19,9 +19,12 @@ app.use(express.static(path.join(__dirname, "..", "public")));
 // backend routing
 app.use(planetsRouter);
 app.use(launchesRouter);
-// frontend routing
-app.get('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, "..", "public", "index.html"));
-});
+if (process.env.NODE_ENV === 'production') {
+  // frontend routing
+  app.get('/*', (req, res) => {
+    res.sendFile(path.join(__dirname, "..", "public", "index.html"));
+  });
+}
+
 
 module.exports = app;
