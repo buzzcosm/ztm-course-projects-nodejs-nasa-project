@@ -18,8 +18,6 @@ Final code of this course section on [GitHub](https://github.com/odziem/nasa-pro
 
 ## Process
 
-
-
 Install npm packages ⬇
 
 ```shell
@@ -27,6 +25,9 @@ npm install
 ```
 
 Run application in develop mode 🏎️💨
+
+> [!CAUTION]
+> Currently only optimized for deployment!
 
 ```shell
 npm run watch
@@ -56,3 +57,4 @@ npm run clean
 - [Arwes - Futuristic Sci-Fi UI Web Framework](https://arwes.dev/) ✨🚀
 - [Node.js - Streams Promises API](https://nodejs.org/api/stream.html#stream_streams_promises_api)
 - [Create React App - Deployment](https://create-react-app.dev/docs/deployment/)
+- [GitHub - Markdown highlighting](https://github.com/orgs/community/discussions/16925)
