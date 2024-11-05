@@ -11,7 +11,6 @@ Final code of this course section on [GitHub](https://github.com/odziem/nasa-pro
 - Prefered Code-Editor/IDE is installed (For example: `vscode`) ✍
 - Terminal is ready 😎 
 
-
 ## Description
 
 <!-- Exercises for NASA Project. -->
