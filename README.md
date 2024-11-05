@@ -27,28 +27,30 @@ Original final code of this course section on [GitHub](https://github.com/odziem
 
 ## Process
 
-Install npm packages ⬇
+### Install npm packages ⬇
 
 ```shell
 npm install
 ```
 
-Run application in develop mode 🏎️💨
+### Run application 🏎️💨
 <!-- 
 > [!CAUTION]
 > Currently only optimized for deployment! -->
 
 ```shell
+# develop mode
 npm run watch
 ```
 
-Run application in production mode 🏎️💨
+or
 
 ```shell
+# production mode
 npm run deploy
 ```
 
-Test application
+### Test application 📊
 
 ```shell
 npm test
@@ -57,12 +59,12 @@ npm test
 or
 
 ```shell
-# from server:
+# from server
 cd server
 npm run test-watch 
 ```
 
-Clean artifacts 🧹🪣
+### Clean artifacts 🧹🪣
 
 > [!TIP]
 > Keep your things clean!
