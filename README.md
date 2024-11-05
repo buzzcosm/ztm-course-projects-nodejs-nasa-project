@@ -4,6 +4,9 @@
 
 Original final code of this course section on [GitHub](https://github.com/odziem/nasa-project) of `nasa-project`.
 
+`ZTM` 👉 [Don’t be a Junior Developer](https://zerotomastery.io/blog/dont-be-a-junior-developer-the-roadmap)
+>> [The Developer’s Edge: How To Become A Senior Developer](https://zerotomastery.io/blog/developers-edge-how-to-become-a-senior-developer/)
+
 ## Prerequisite
 
 <!-- -->
