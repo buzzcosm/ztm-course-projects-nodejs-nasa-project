@@ -48,6 +48,20 @@ Run application in production mode 🏎️💨
 npm run deploy
 ```
 
+Test application
+
+```shell
+npm test
+```
+
+or
+
+```shell
+# from server:
+cd server
+npm run test-watch 
+```
+
 Clean artifacts 🧹🪣
 
 > [!TIP]
@@ -63,6 +77,7 @@ npm run clean
 
 - [JEST](https://jestjs.io/)
   - [Getting Started](https://jestjs.io/docs/getting-started)
+- [npm - SuperTest](https://www.npmjs.com/package/supertest)
 
 ## Useful references
 
