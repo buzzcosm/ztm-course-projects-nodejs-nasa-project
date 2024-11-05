@@ -2,7 +2,7 @@
 
 `ZTM` Udemy Course - [Complete NodeJS Developer](https://www.udemy.com/course/complete-nodejs-developer-zero-to-mastery).
 
-Final code of this course section on [GitHub](https://github.com/odziem/nasa-project) of `nasa-project`.
+Original final code of this course section on [GitHub](https://github.com/odziem/nasa-project) of `nasa-project`.
 
 ## Prerequisite
 
