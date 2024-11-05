@@ -15,7 +15,7 @@ function httpAddNewLaunch(req, res) {
     !launch.mission ||
     !launch.rocket ||
     !launch.launchDate ||
-    !launch.destination
+    !launch.target
   ) {
     return res.status(400).json({ // client error - 400 Bad Request
       error: 'Missing required launch property',
