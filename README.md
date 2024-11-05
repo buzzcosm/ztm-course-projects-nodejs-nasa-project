@@ -59,3 +59,4 @@ npm run clean
 - [Create React App - Deployment](https://create-react-app.dev/docs/deployment/)
 - [GitHub - Markdown highlighting](https://github.com/orgs/community/discussions/16925)
 - [npm - Morgan Logging Package](https://www.npmjs.com/package/morgan)
+- [Mozilla - JavaScript Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
