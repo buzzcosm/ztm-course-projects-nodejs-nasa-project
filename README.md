@@ -21,6 +21,9 @@ Original final code of this course section on [GitHub](https://github.com/odziem
 ## Description
 
 <!-- Exercises for NASA Project. -->
+📌 The "NASA Mission Control" project provides a valuable exercise in integrating RESTful APIs using Node.js and Express.js. Through this project, you’ll gain hands-on experience in managing API endpoints, handling requests, and efficiently structuring backend processes, which are essential skills for developing robust web applications.
+
+🚀 👉 It was a fantastic experience filled with fun and learning! 🎉💥🙌
 
 ## Process
 
