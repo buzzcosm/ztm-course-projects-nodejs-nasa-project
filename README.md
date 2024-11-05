@@ -60,3 +60,4 @@ npm run clean
 - [GitHub - Markdown highlighting](https://github.com/orgs/community/discussions/16925)
 - [npm - Morgan Logging Package](https://www.npmjs.com/package/morgan)
 - [Mozilla - JavaScript Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+- [NOAA - National Oceanic and Atmospheric Administration / Satellites](https://www.noaa.gov/satellites)
