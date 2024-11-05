@@ -14,6 +14,10 @@ Original final code of this course section on [GitHub](https://github.com/odziem
 - Prefered Code-Editor/IDE is installed (For example: `vscode`) ✍
 - Terminal is ready 😎 
 
+## Structure
+
+![Alt text](./docs/images/Project+Architectural+Diagram.drawio.svg)
+
 ## Description
 
 <!-- Exercises for NASA Project. -->
