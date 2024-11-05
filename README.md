@@ -44,6 +44,8 @@ Clean artifacts 🧹🪣
 > [!TIP]
 > Keep your things clean!
 
+Remove all `node_modules` and `public` folder.
+
 ```shell
 npm run clean
 ```
