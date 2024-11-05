@@ -61,3 +61,4 @@ npm run clean
 - [npm - Morgan Logging Package](https://www.npmjs.com/package/morgan)
 - [Mozilla - JavaScript Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 - [NOAA - National Oceanic and Atmospheric Administration / Satellites](https://www.noaa.gov/satellites)
+  - ➥ Maybe interesting for other projects! 🤔💡✍
