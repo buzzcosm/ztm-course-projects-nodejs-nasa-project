@@ -4,6 +4,7 @@
   "description": "NASA Mission Control Project",
   "main": "index.js",
   "scripts": {
+    "test": "npm test --prefix server && npm test --prefix client",
     "clean-server": "npm run clean --prefix server",
     "clean-client": "npm run clean --prefix client",
     "clean": "npm run clean-server && npm run clean-client",
@@ -14,7 +15,9 @@
     "client": "npm start --prefix client",
     "watch": "npm run server & npm run client",
     "deploy": "npm run build --prefix client && npm start --prefix server",
-    "test": "npm test --prefix server && npm test --prefix client"
+    "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server",
+    "kill-cluster": "pm2 delete all"
+    
   },
   "keywords": [],
   "author": "",
