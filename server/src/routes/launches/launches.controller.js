@@ -19,20 +19,13 @@ function httpAddNewLaunch(req, res) {
     !launch.launchDate ||
     !launch.target
   ) {
-    return res.status(400).json({ // client error - 400 Bad Request
+    return res.status(400).json({
       error: 'Missing required launch property',
     });
   }
   launch.launchDate = new Date(launch.launchDate);
-  // other validation approaches for the date
-  // isNaN() -> returns true if the value is not a number
-  // isNaN(launch.launchDate) -> returns true if the value is not a number
-  // date.valueOf() -> returns the number of milliseconds since January 1, 1970
-  // new Date().valueOf() -> returns the number of milliseconds since January 1, 1970
-  // 
-  // if (launch.launchDate.toString() === 'Invalid Date') {
   if (isNaN(launch.launchDate)) {
-    return res.status(400).json({ // client error - 400 Bad Request
+    return res.status(400).json({
       error: 'Invalid launch date',
     });
   }
