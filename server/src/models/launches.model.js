@@ -2,10 +2,9 @@
 const launchesDatabase = require('./launches.mongo');
 const planets = require('./planets.mongo');
 
-const launches = new Map();
+const DEFAULT_FLIGHT_NUMBER = 100;
 
-// state
-let latestFlightNumber = 100;
+const launches = new Map();
 
 const launch = {
   flightNumber: 100,
@@ -24,6 +23,18 @@ function existsLaunchWithId(launchId) {
   return launches.has(launchId);
 }
 
+async function getLatestFlightNumber() {
+  const latestLaunch = await launchesDatabase
+    .findOne()
+    .sort('-flightNumber');
+
+  if (!latestLaunch) {
+    return DEFAULT_FLIGHT_NUMBER;
+  }
+
+  return latestLaunch.flightNumber;
+}
+
 async function getAllLaunches() {
   return await launchesDatabase.find({}, {
     '_id': 0,
@@ -40,24 +51,24 @@ async function saveLaunch(launch) {
     throw new Error(`No matching planet found for ${launch.target}`);
   }
 
-  await launchesDatabase.updateOne({
+  await launchesDatabase.findOneAndUpdate({
     flightNumber: launch.flightNumber,
   }, launch, {
     upsert: true
   });
 }
 
-function addNewLaunch(launch) {
-  latestFlightNumber++;
-  launches.set(
-    latestFlightNumber, 
-    Object.assign(launch, {
-      upcoming: true,
-      success: true,
-      customers: ['SpaceX', 'NASA'],
-      flightNumber: latestFlightNumber,
-    })
-  );
+async function scheduleNewLaunch(launch) {
+  const newFlightNumber = await getLatestFlightNumber() + 1;
+
+  const newLaunch = Object.assign(launch, {
+    success: true,
+    upcoming: true,
+    customers: ["SpaceX", "NASA"],
+    flightNumber: newFlightNumber,
+  });
+
+  await saveLaunch(newLaunch);
 }
 
 function abortLaunchById(launchId) {
@@ -70,6 +81,6 @@ function abortLaunchById(launchId) {
 module.exports = {
   existsLaunchWithId,
   getAllLaunches,
-  addNewLaunch,
+  scheduleNewLaunch,
   abortLaunchById
 }
