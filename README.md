@@ -16,7 +16,8 @@ Original final code of this course section on [GitHub](https://github.com/odziem
 
 ## Structure
 
-![Alt text](./docs/images/Project+Architectural+Diagram.drawio.svg)
+<!-- ![Alt text](./docs/images/Project+Architectural+Diagram.drawio.svg) -->
+<img src="./docs/images/Project+Architectural+Diagram.drawio.svg">
 
 ## Description
 
