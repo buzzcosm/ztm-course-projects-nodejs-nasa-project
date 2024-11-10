@@ -50,6 +50,12 @@ or
 npm run deploy
 ```
 
+or
+
+```shell
+npm run deploy-cluster
+```
+
 ### Test application 📊
 
 ```shell
