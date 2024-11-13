@@ -12,13 +12,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/planets",
+					"raw": "http://localhost:8000/v1/planets",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"v1",
 						"planets"
 					]
 				}
@@ -31,13 +32,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/launches",
+					"raw": "http://localhost:8000/v1/launches",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"v1",
 						"launches"
 					]
 				}
@@ -51,7 +53,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"mission\": \"ZTM155\",\n    \"rocket\": \"ZTM Experimental IS1\",\n    \"target\": \"Kepler-186 f\",\n    \"launchDate\": \"January 17, 2030\"\n}",
+					"raw": "{\n    \"mission\": \"Up And Away!\",\n    \"rocket\": \"ZTM Experimental IS1 - NEW\",\n    \"target\": \"Kepler-62 f\",\n    \"launchDate\": \"January 17, 2035\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -59,13 +61,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/launches",
+					"raw": "http://localhost:8000/v1/launches",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"v1",
 						"launches"
 					]
 				}
@@ -87,13 +90,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/launches",
+					"raw": "http://localhost:8000/v1/launches",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"v1",
 						"launches"
 					]
 				}
@@ -115,13 +119,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/launches",
+					"raw": "http://localhost:8000/v1/launches",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"v1",
 						"launches"
 					]
 				}
@@ -134,15 +139,16 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/launches/100",
+					"raw": "http://localhost:8000/v1/launches/103",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"v1",
 						"launches",
-						"100"
+						"103"
 					]
 				}
 			},
@@ -154,13 +160,14 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/launches/188",
+					"raw": "http://localhost:8000/v1/launches/188",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"v1",
 						"launches",
 						"188"
 					]
