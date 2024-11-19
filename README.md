@@ -118,3 +118,4 @@ npm run clean
 - MongoDB
   - [MongoDB ObjectId ↔ Timestamp Converter](https://steveridout.com/mongo-object-time/)
 - [GitHub - Open Source REST API for SpaceX](https://github.com/buzzcosm/ztm-course-projects-nodejs-nasa-project) 🚀🚀🚀🪐🌌☄️🌑⋆⭐💫
+- [Mozilla - Array.prototype.flatMap()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
